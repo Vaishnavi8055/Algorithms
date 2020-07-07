@@ -13,15 +13,21 @@ Otherwise, the sorting algorithm is unstable</p>
 <li><i>In-place/out-of-place sorting</i></li>
 <p>An algorithm performs an in-place sorting if it requires only a constant amount of additional space, otherwise, the algorithm performs an out-of-place sorting. 
 The larger the size of the array, the more additional memory is required by the out-of-place algorithms.</p>
+<li><i>Internal or external sorting</i></li>
+<p>An algorithm performs an internal sorting if sorting data are kept entirely within the main memory of the computer. External sorting is required when the data do not fit into the main memory of the computing device and instead, they must be kept in the slower external memory (usually a hard drive).</p>
 </ul>
 
 <hr />
 
 <ol>
-<li><b>Insertion Sort<b></li>
-<p>It is a simple <b>Sorting Algorithm</b> that performs an <b>in-place</p> sorting.</p>
-<p>It devides the array into sorted and unsorted parts.</p>
+<li><b>Insertion Sort</b></li>
+<p>It is a simple <b>Sorting Algorithm</b> that performs an <b>in-place</p> sorting.
+  It devides the array into sorted and unsorted parts.The Algorithm is <b>Stable</b> , it doesn't change the relative order of identical elements</p>
 </ol>
+
+<h3>Time Complexity of Insertion Sort</h3>
+<p> O(n^2)  where n = array length </p>
+
 
 
 
