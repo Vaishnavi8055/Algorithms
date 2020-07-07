@@ -21,7 +21,7 @@ The larger the size of the array, the more additional memory is required by the 
 
 <ol>
 <li><b>Insertion Sort</b></li>
-<p>It is a simple <b>Sorting Algorithm</b> that performs an <b>in-place</p> sorting.
+<p>It is a simple <b>Sorting Algorithm</b> that performs an <b>in-place</b> sorting.
   It devides the array into sorted and unsorted parts.The Algorithm is <b>Stable</b> , it doesn't change the relative order of identical elements</p>
 </ol>
 
