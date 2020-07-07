@@ -7,6 +7,7 @@ public class Implementation {
 
         for(int index = 1 ; index < arrayLength ; index++) {
             int compareKey = array[index];
+            int secondIndex = index - 1;
         }
 
     }
