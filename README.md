@@ -22,10 +22,10 @@ The larger the size of the array, the more additional memory is required by the 
 <ol>
 <li><b>Insertion Sort</b></li>
 <p>It is a simple <b>Sorting Algorithm</b> that performs an <b>in-place</b> sorting.
-  It devides the array into sorted and unsorted parts.The Algorithm is <b>Stable</b> , it doesn't change the relative order of identical elements</p>
+  It devides the array into sorted and unsorted parts.The Algorithm is <b>Stable</b> , it doesn't change the relative order of identical elements.</p>
 </ol>
 
-<h3>Time Complexity of Insertion Sort</h3>
+<h4>Time Complexity of Insertion Sort</h4>
 <p> O(n^2)  where n = array length </p>
 
 
