@@ -16,4 +16,10 @@ public class Implementation {
             array[secondIndex + 1] = compareKey;
         }
     }
+
+    public void displaySortedArray(int sortedArray[]) {
+        for (int index = 0; index < sortedArray.length; index++) {
+            System.out.print(sortedArray[index] + " ");
+        }
+    }
 }
