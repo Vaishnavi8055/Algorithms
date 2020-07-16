@@ -17,5 +17,10 @@ public class Implementation {
             RightSubArray[index2] = array[middleIndex + 1 + index2];
         }
 
+        int tempIndex1 = 0;
+        int tempIndex2 = 0;
+
+
+
     }
 }
