@@ -13,5 +13,9 @@ public class Implementation {
             LeftSubArray[index1] = array[leftIndex + index1];
         }
 
+        for (int index2 = 0; index2 < lengthOfRightSubArray; index2++) {
+            RightSubArray[index2] = array[middleIndex + 1 + index2];
+        }
+
     }
 }
