@@ -8,9 +8,18 @@ public class Implementation {
             int min_index = i;
             for (int j = i + 1; j < length; j++) {
                 if (array[j] < array[min_index]) {
-
+                    min_index = j;
+                    int temp = array[min_index];
+                    array[min_index] = array[i];
+                    array[i] = temp;
                 }
             }
+        }
+    }
+
+    public void displaySortedArray(int array[]) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
         }
     }
 }
